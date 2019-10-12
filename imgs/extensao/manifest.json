@@ -1,0 +1,23 @@
+﻿{
+  "manifest_version": 2,
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "background": {
+    "scripts": [ "background.js" ],
+    "persistent": false
+  },
+  "name": "Gerar DANFe/DACTe com Portal Nacional",
+  "version": "3.1.4",
+  "description": "Extensão para lhe ajudar a gerar um DANFe/DACTe utilizando o portal nacional da fazenda de NFe.",
+  "content_scripts": [
+    {
+      "css": [ "style.css" ],
+      "js": [ "script.min.js" ],
+      "matches": [ "https://www.nfe.fazenda.gov.br/*", "https://www.cte.fazenda.gov.br/*", "https://*.fsist.com.br/*" ],
+      "all_frames": true
+    }
+  ]
+}

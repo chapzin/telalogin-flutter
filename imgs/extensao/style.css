@@ -1,0 +1,21 @@
+.butExtChrome {
+    white-space: nowrap;
+    border-radius: 4px;
+    background-color: #32c24d;
+    border: 1px solid #4cae4c;
+    padding: 6px 12px;
+    color: white;
+    cursor: pointer;
+    width: auto;
+    display: inline-block;
+    box-sizing: border-box;
+}
+
+    .butExtChrome:hover {
+        background-color: #1faa39;
+    }
+
+/*body {
+    margin: 0px;
+    background-color: rgba(0, 0, 0, 0.5)
+}*/
